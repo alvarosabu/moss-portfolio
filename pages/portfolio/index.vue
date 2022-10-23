@@ -28,6 +28,7 @@ await fetchProjects();
             class="w-full aspect-video"
             :src="project.content.media.filename"
             format="webp"
+            sizes="sm:100vw md:50vw lg:460px"
           />
           <div class="p-4">
             <h3>{{ project.name }}</h3>
