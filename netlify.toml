@@ -1,0 +1,8 @@
+[build.environment]
+  NODE_VERSION = "16"
+[build]
+  command = "pnpm run generate"
+[[redirects]]
+  from = "/*"
+  to = "index.html"
+  status = 200

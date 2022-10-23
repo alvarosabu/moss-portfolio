@@ -1,0 +1,23 @@
+{
+  "name": "moss-flippin-awesome-portfolio",
+  "version": "1.0.0",
+  "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:https": "nuxt dev --https",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@alvarosabu/prettier-config": "^1.2.0",
+    "@nuxt/image-edge": "1.0.0-27769790.4b27db3",
+    "@storyblok/nuxt": "^4.3.0",
+    "@unocss/nuxt": "^0.45.30",
+    "axios": "0.27.2",
+    "nuxt": "3.0.0-rc.12",
+    "prettier": "^2.7.1"
+  }
+}
