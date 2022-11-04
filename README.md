@@ -19,7 +19,7 @@ npm install
 npm run dev
 ```
 
-### Problem with development server
+### Problem with development server
 
 Have you tried to turning off and on `npm run dev` again?
 
